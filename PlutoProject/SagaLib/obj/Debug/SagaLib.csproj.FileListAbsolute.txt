@@ -10,3 +10,11 @@ F:\ECOAceProject\SagaECONewClient\Bin\SagaLib.dll
 F:\ECOAceProject\SagaECONewClient\Bin\SagaLib.pdb
 F:\ECOAceProject\SagaECONewClient\Bin\SagaLib.XML
 F:\ECOAceProject\SagaECONewClient\SagaLib\obj\Debug\SagaLib.csprojResolveAssemblyReference.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaLib.dll
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaLib.pdb
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaLib.XML
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\obj\Debug\SagaLib.csproj.AssemblyReference.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\obj\Debug\SagaLib.csproj.CoreCompileInputs.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\obj\Debug\SagaLib.csproj.CopyComplete
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\obj\Debug\SagaLib.dll
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\obj\Debug\SagaLib.pdb

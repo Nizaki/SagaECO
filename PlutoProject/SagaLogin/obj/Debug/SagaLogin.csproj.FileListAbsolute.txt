@@ -10,3 +10,12 @@ F:\ECOAceProject\SagaECONewClient\Bin\SagaLogin.exe.config
 F:\ECOAceProject\SagaECONewClient\Bin\SagaLogin.exe
 F:\ECOAceProject\SagaECONewClient\Bin\SagaLogin.pdb
 F:\ECOAceProject\SagaECONewClient\SagaLogin\obj\Debug\SagaLogin.csprojResolveAssemblyReference.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaLogin.exe.config
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaLogin.exe
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaLogin.pdb
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLogin\obj\Debug\SagaLogin.csproj.AssemblyReference.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLogin\obj\Debug\SagaLogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLogin\obj\Debug\SagaLogin.csproj.CoreCompileInputs.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLogin\obj\Debug\SagaLogin.csproj.CopyComplete
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLogin\obj\Debug\SagaLogin.exe
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLogin\obj\Debug\SagaLogin.pdb

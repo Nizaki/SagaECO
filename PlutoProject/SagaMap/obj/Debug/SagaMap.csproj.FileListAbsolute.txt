@@ -19,3 +19,13 @@ G:\svn\PlutoProject\Bin\SagaMap.exe.config
 G:\svn\PlutoProject\Bin\SagaMap.exe
 G:\svn\PlutoProject\Bin\SagaMap.pdb
 G:\svn\PlutoProject\Bin\SagaMap.XML
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\obj\Debug\SagaMap.csproj.AssemblyReference.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\obj\Debug\SagaMap.csproj.SuggestedBindingRedirects.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\obj\Debug\SagaMap.csproj.CoreCompileInputs.cache
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaMap.exe.config
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaMap.exe
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaMap.pdb
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaMap.XML
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\obj\Debug\SagaMap.csproj.CopyComplete
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\obj\Debug\SagaMap.exe
+C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\obj\Debug\SagaMap.pdb
