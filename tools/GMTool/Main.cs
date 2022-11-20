@@ -48,7 +48,7 @@ namespace GMTool
             English,
         }
         //private 
-        private string user = "root";
+        private string user = "eco";
         private string pass = "saga";
         private string database = "sagaeco";
         private int port = 3306;
@@ -207,7 +207,7 @@ namespace GMTool
             }
             catch (Exception ex)
             {
-                MessageBox.Show("資料庫連線失敗，請檢查SagaLogin的設定檔");
+                MessageBox.Show("Failed to connect DB，Check sagalogin config.");
                 MessageBox.Show(ex.ToString());
                 System.Environment.Exit(System.Environment.ExitCode);
                 return;
