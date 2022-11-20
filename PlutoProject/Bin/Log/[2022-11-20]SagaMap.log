@@ -146,3 +146,1066 @@
 20/11/2565 12:59:05|[Error]File::0
 20/11/2565 12:59:05|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
 20/11/2565 12:59:05|[Error]File::0
+20/11/2565 13:21:23|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:21:29|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:21:29|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:21:29|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:21:50|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:21:53|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 13:21:53|[Error]File::0
+20/11/2565 13:21:53|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 13:21:53|[Error]File::0
+20/11/2565 13:21:53|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 13:21:53|[Error]File::0
+20/11/2565 13:22:26|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:22:31|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:22:31|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:22:31|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:22:54|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:22:56|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 13:22:56|[Error]File::0
+20/11/2565 13:22:56|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 13:22:56|[Error]File::0
+20/11/2565 13:22:56|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 13:22:56|[Error]File::0
+20/11/2565 13:25:39|[Debug]Unknown Packet:0x0001
+       Data:00 01 00 00 03 E8 01 5F 37 71 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:25:52|[Debug]Unknown Packet:0x0001
+       Data:00 01 00 00 03 E8 01 5F 37 71 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:37:06|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:37:11|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:37:11|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:37:12|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:37:30|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:37:32|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 13:38:19|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:39:58|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:40:04|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:40:04|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:40:04|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:40:20|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:40:21|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 13:51:41|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:51:48|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:51:48|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:51:48|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:52:08|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:52:10|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 13:53:34|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:53:41|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:53:41|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:53:41|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:54:01|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:54:03|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 13:56:55|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:57:02|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:57:02|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:57:02|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 13:57:22|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 13:57:24|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 13:57:48|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:58:08|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:58:28|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:58:48|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:59:08|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:59:28|[Debug]Unknown Packet:0x000A
+       Data:00 0A 00 00 00 00 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 13:59:44|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 13:59:51|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 13:59:51|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 13:59:52|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:00:11|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:00:13|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 14:02:47|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:02:52|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:02:52|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:02:52|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:03:09|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:03:11|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 14:05:57|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:06:05|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:06:05|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:06:05|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:06:26|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:11:50|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:11:56|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:11:56|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:11:56|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:12:12|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:12:58|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:13:04|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:13:04|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:13:04|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:13:20|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:13:21|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 14:17:33|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:17:38|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:17:38|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:17:38|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:17:54|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:17:56|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.ScriptManager.CompileScript(String[] Source, CSharpCodeProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 132
+   at SagaMap.Manager.ScriptManager.LoadScript(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\ScriptManager.cs:line 62
+20/11/2565 14:23:53|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:23:58|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:23:58|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:23:58|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:24:14|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 14:24:16|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:24:16|[Error]File::0
+20/11/2565 14:24:16|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:24:16|[Error]File::0
+20/11/2565 14:24:16|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:24:16|[Error]File::0
+20/11/2565 14:27:49|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:27:54|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:27:54|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:27:54|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:28:12|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:28:12|[Error]File::0
+20/11/2565 14:28:12|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:28:12|[Error]File::0
+20/11/2565 14:28:12|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:28:12|[Error]File::0
+20/11/2565 14:28:52|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:28:56|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:28:56|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:28:56|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:29:14|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:29:14|[Error]File::0
+20/11/2565 14:29:14|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:29:14|[Error]File::0
+20/11/2565 14:29:14|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:29:14|[Error]File::0
+20/11/2565 14:32:06|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:32:17|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:32:17|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:32:17|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:32:41|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:32:41|[Error]File::0
+20/11/2565 14:32:41|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:32:41|[Error]File::0
+20/11/2565 14:32:41|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:32:41|[Error]File::0
+20/11/2565 14:35:56|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:36:03|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:36:03|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:36:03|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:36:24|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:36:24|[Error]File::0
+20/11/2565 14:36:24|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:36:24|[Error]File::0
+20/11/2565 14:36:24|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:36:24|[Error]File::0
+20/11/2565 14:36:57|[Error]Column 'exstatpoint' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:37:03|[Debug]Thread() used unnormal time till unlock(3 sec)
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\ClientMananger.cs:293
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\ClientMananger.cs:281
+      at SagaLib.MySQLConnectivity.SQLExecuteQuery C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:241
+      at SagaMap.Process.CheckAPIItem C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Process\Process.cs:69
+      at SagaMap.Network.Client.MapClient.OnMapLoaded C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Network\Client\MapClient.Login.cs:821
+      at SagaMap.Packets.Client.CSMG_PLAYER_MAP_LOADED.Parse C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Packets\Client\Actor\CSMG_PLAYER_MAP_LOADED.cs:25
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:600
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:37:03|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:37:03|[SQL]Error to many times, dropping command
+20/11/2565 14:37:03|[SQL]Error on query:UPDATE `char` SET `name`='test',`race`='0',`gender`='1',`hairStyle`='7',`hairColor`='50',`wig`='255',`face`='0',`job`='0',`mapID`='30204000',`lv`='1',`jlv1`='1',`jlv2x`='1',`jlv2t`='1',`questRemaining`='3',`slot`='0',`x`='15',`y`='16',`dir`='0',`hp`='86',`max_hp`='86',`mp`='40',`max_mp`='40',`sp`='34',`max_sp`='34',`str`='8',`dex`='3',`intel`='3',`vit`='10',`agi`='4',`mag`='3',`statspoint`='2',`skillpoint`='3',`skillpoint2x`='0',`skillpoint2t`='0',`skillpoint3`='0',`gold`='0',`cexp`='0',`jexp`='0',`save_map`='0',`save_x`='0',`save_y`='0',`possession_target`='0',`questid`='0',`questendtime`='2022-11-20 14:37:3',`queststatus`='1',`questcurrentcount1`='0',`questcurrentcount2`='0',`questcurrentcount3`='0',`questresettime`='2022-11-21 14:36:59',`fame`='0',`party`='0',`ring`='0',`golem`='0',`cp`='0',`ecoin`='0',`jointjlv`='1',`jjexp`='0',`wrp`='0',`ep`='30',`eplogindate`='1-1-1 0:0:0',`epgreetingdate`='2000-1-1 0:0:0',`cl`='9',`epused`='0',`tailStyle`='0',`wingStyle`='0',`wingColor`='0',`lv1`='0',`jlv3`='0',`explorerEXP`='0',`usingpaper_id` = '0' ,`title_id` = '0' ,`abyssfloor`='0',`DualJobID`='0', exstatpoint='0',exskillpoint='0'  WHERE char_id='1' LIMIT 1
+20/11/2565 14:37:03|[SQL]Unknown column 'DualJobID' in 'field list'
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 14:37:03|[SQL]Error to many times, dropping command
+20/11/2565 14:41:39|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:41:45|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:41:45|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:41:45|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:42:08|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:42:08|[Error]File::0
+20/11/2565 14:42:08|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:42:08|[Error]File::0
+20/11/2565 14:42:08|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:42:08|[Error]File::0
+20/11/2565 14:42:48|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:42:50|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:42:50|[SQL]Error to many times, dropping command
+20/11/2565 14:47:26|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:47:31|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:47:31|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:47:31|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 14:47:55|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 14:47:55|[Error]File::0
+20/11/2565 14:47:55|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 14:47:55|[Error]File::0
+20/11/2565 14:47:55|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 14:47:55|[Error]File::0
+20/11/2565 14:48:18|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:48:19|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:19|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 14:48:20|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 14:48:20|[SQL]Error to many times, dropping command
+20/11/2565 14:59:37|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 14:59:48|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 14:59:48|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 14:59:51|[Error]Compile Error:The type or namespace name 'Linq' does not exist in the namespace 'System' (are you missing an assembly reference?)
+20/11/2565 14:59:51|[Error]File:c:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Packets\Server\Login\SSMG_CONNECTION_CHECK.cs:4
+20/11/2565 14:59:51|[Error]Compile Error:The type or namespace name 'Tasks' does not exist in the namespace 'System.Threading' (are you missing an assembly reference?)
+20/11/2565 14:59:51|[Error]File:c:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Packets\Server\Login\SSMG_CONNECTION_CHECK.cs:6
+20/11/2565 14:59:58|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:11|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:23|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:35|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:47|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:59|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:01:11|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:01:23|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:05:04|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 15:05:09|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 15:05:09|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 15:06:18|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:06:23|[Debug]Thread() used unnormal time till unlock(3 sec)
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\ClientMananger.cs:293
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\ClientMananger.cs:281
+      at SagaLib.MySQLConnectivity.SQLExecuteQuery C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:241
+      at SagaMap.Process.CheckAPIItem C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Process\Process.cs:69
+      at SagaMap.Network.Client.MapClient.OnMapLoaded C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Network\Client\MapClient.Login.cs:815
+      at SagaMap.Packets.Client.CSMG_PLAYER_MAP_LOADED.Parse C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Packets\Client\Actor\CSMG_PLAYER_MAP_LOADED.cs:25
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:600
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:23|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:23|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:24|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:24|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:24|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:24|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:24|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+20/11/2565 15:06:24|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 111
+
+20/11/2565 15:06:24|[SQL]Error to many times, dropping command
+20/11/2565 15:15:49|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 15:15:54|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 15:15:54|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 15:18:14|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:20:02|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 15:20:07|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 15:20:07|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 15:20:58|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:21:20|[Debug]Unknown Packet:0x0268
+       Data:02 68 00 00 00 01 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 15:21:24|[Debug]Unknown Packet:0x0268
+       Data:02 68 00 00 00 01 
+      at SagaLib.NetIO.ProcessPacket C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:560
+
+20/11/2565 15:21:40|[Error]The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SagaMap.Network.Client.MapClient.OnVShopCategoryRequest(CSMG_VSHOP_CATEGORY_REQUEST p) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Network\Client\MapClient.NPC.cs:line 250
+   at SagaMap.Packets.Client.CSMG_VSHOP_CATEGORY_REQUEST.Parse(Client client) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Packets\Client\VShop\CSMG_VSHOP_CATEGORY_REQUEST.cs:line 33
+   at SagaLib.NetIO.ProcessPacket(Packet p) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\NetIO.cs:line 600
+20/11/2565 15:25:28|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 15:25:33|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 15:25:33|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 15:26:16|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:27:35|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:35|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:35.951',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error to many times, dropping command
+20/11/2565 15:27:45|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:28:08|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:08|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:08|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:08|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:08|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:08|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:08.893',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error to many times, dropping command
+20/11/2565 15:28:21|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.382',`macaddress` = '4d4c403b1e5',`playernames` = '' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error to many times, dropping command

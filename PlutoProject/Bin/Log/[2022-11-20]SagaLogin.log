@@ -6,3 +6,507 @@
 20/11/2565 12:51:39|[Error]Failed.. Trying again in 10sec
 20/11/2565 12:53:53|[Error]Failed.. Trying again in 10sec
 20/11/2565 12:54:03|[Error]Failed.. Trying again in 10sec
+20/11/2565 13:21:58|Warning:A map server has just disconnected...
+20/11/2565 13:38:30|Warning:A map server has just disconnected...
+20/11/2565 14:23:43|Warning:A map server has just disconnected...
+20/11/2565 14:30:46|Warning:A map server has just disconnected...
+20/11/2565 14:33:32|[Error]Column 'exstatpoint' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:36:50|[Error]Column 'exstatpoint' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:41:27|Warning:A map server has just disconnected...
+20/11/2565 14:42:41|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:47:54|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 914
+20/11/2565 14:49:09|Warning:A map server has just disconnected...
+20/11/2565 14:59:58|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:11|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:23|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:35|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:47|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:00:59|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:01:11|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:01:23|[Error]Failed.. Trying again in 10sec
+20/11/2565 15:06:10|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:11:21|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:16:56|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:18:45|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:56|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:56|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:57|[SQL]Error on query:INSERT INTO `char`(`account_id`,`name`,`race`,`gender`,`hairStyle`,`hairColor`,`wig`,`face`,`job`,`mapID`,`lv`,`jlv1`,`jlv2x`,`jlv2t`,`questRemaining`,`slot`,`x`,`y`,`dir`,`hp`,`max_hp`,`mp`,`max_mp`,`sp`,`max_sp`,`str`,`dex`,`intel`,`vit`,`agi`,`mag`,`statspoint`,`skillpoint`,`skillpoint2x`,`skillpoint2t`,`gold`,`ep`,`eplogindate` ,`tailStyle` ,`wingStyle` ,`wingColor` ,`lv1` ,`jlv3`,`skillpoint3`,`explorerEXP`) VALUES ('1','Test new','2','1','7','70','255','0','0','30204000','1','1','1','1','3','2','15','16','0','120','120','120','220','100','100','10','5','1','1','5','8','2','3','0','0','0','100','1-1-1 0:0:0','0','0','0','0','0','0','0');SELECT LAST_INSERT_ID();
+20/11/2565 15:18:57|[SQL]Field 'exstatpoint' doesn't have a default value
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 115
+
+20/11/2565 15:18:57|[SQL]Error to many times, dropping command
+20/11/2565 15:22:01|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:01.093',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:01|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:01|[SQL]Error to many times, dropping command
+20/11/2565 15:22:11|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:11.018',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:11|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:11|[SQL]Error to many times, dropping command
+20/11/2565 15:22:13|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:22:13.326',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:22:13|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:22:13|[SQL]Error to many times, dropping command
+20/11/2565 15:22:17|Warning:A map server has just disconnected...
+20/11/2565 15:26:07|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:26:07.283',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:26:07|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:26:07|[SQL]Error to many times, dropping command
+20/11/2565 15:27:36|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:27:36.303',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:27:36|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:27:36|[SQL]Error to many times, dropping command
+20/11/2565 15:28:09|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:09.244',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:09|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:09|[SQL]Error to many times, dropping command
+20/11/2565 15:28:34|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:34|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:34|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:35|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:35|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:35|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:35|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:35|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:34.718',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:35|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:35|[SQL]Error to many times, dropping command
+20/11/2565 15:28:49|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:49.644',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:49|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:49|[SQL]Error to many times, dropping command
+20/11/2565 15:28:51|[Error]Specified cast is not valid.
+   at SagaDB.MySQLActorDB.GetChar(UInt32 charID, Boolean fullinfo) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\MySQLActorDB.cs:line 822
+20/11/2565 15:28:51|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:51|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:51|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:51|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:51|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:51|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error on query:UPDATE `login` SET `username`='test',`password`='81dc9bdb52d04dc20036dbd8313ed055',`deletepass`='81dc9bdb52d04dc20036dbd8313ed055',`bank`='0',`banned`='0',`lastip`='127.0.0.1',`questresettime`='10145-01-01 00:00:00.000',`lastlogintime`='2565-11-20 15:28:51.893',`macaddress` = '4d4c403b1e5',`playernames` = 'test,' WHERE account_id='1' LIMIT 1
+20/11/2565 15:28:52|[SQL]Incorrect datetime value: '10145-01-01 00:00:00.000' for column 'questresettime' at row 1
+   at SagaLib.MySQLConnectivity.ProcessMysql() in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\MySQLConnectivity.cs:line 106
+
+20/11/2565 15:28:52|[SQL]Error to many times, dropping command
+20/11/2565 15:28:58|Warning:A map server has just disconnected...

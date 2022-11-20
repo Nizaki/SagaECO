@@ -24,7 +24,7 @@ namespace SagaMap.Skill
         uint skillID;
         public void LoadSkill(string path)
         {
-            Logger.ShowInfo("開始加載技能...");
+            Logger.ShowInfo("Loading skill...");
             Dictionary<string, string> dic = new Dictionary<string, string>() { { "CompilerVersion", "v3.5" } };
             CSharpCodeProvider provider = new CSharpCodeProvider(dic);
             int skillcount = 0;
@@ -49,7 +49,7 @@ namespace SagaMap.Skill
             {
                 SagaLib.Logger.ShowError(ex);
             }
-            Logger.ShowInfo(string.Format("外置技能加載數：{0}", skillcount));
+            Logger.ShowInfo(string.Format("Loaded external skill：{0} skill", skillcount));
         }
 
         private Assembly CompileScript(string[] Source, CodeDomProvider Provider)

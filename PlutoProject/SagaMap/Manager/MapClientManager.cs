@@ -84,7 +84,7 @@ namespace SagaMap.Manager
             this.commandTable.Add(0x22B2, new Packets.Client.CSMG_TAMAIRE_RENTAL_REQUEST());
             this.commandTable.Add(0x22B4, new Packets.Client.CSMG_TAMAIRE_RENTAL_TERMINATE_REQUEST());
 
-            this.commandTable.Add(0x000A, new Packets.Client.CSMG_SEND_VERSION());
+            this.commandTable.Add(0x000A, new Packets.Client.CSMG_SEND_VERSION());//version Check
             this.commandTable.Add(0x0010, new Packets.Client.CSMG_LOGIN());
             this.commandTable.Add(0x001E, new Packet());//dummy packet
             this.commandTable.Add(0x001F, new Packets.Client.CSMG_LOGOUT());

@@ -69,6 +69,7 @@ namespace SagaMap.Network.Client
             }
         }
 
+
         public void OnLogin(Packets.Client.CSMG_LOGIN p)
         {
             p.GetContent();
@@ -186,6 +187,7 @@ namespace SagaMap.Network.Client
                 this.netIO.SendPacket(p1);
             }
         }
+
 
         public void OnCharSlot(Packets.Client.CSMG_CHAR_SLOT p)
         {

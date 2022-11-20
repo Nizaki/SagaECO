@@ -48,8 +48,8 @@ namespace SagaMap.Manager
         public void LoadScript(string path)
         {
             Logger.ShowInfo("Loading uncompiled scripts");
-            Dictionary<string, string> dic = new Dictionary<string, string>() { { "CompilerVersion", "v4.0" } };
-            CSharpCodeProvider provider = new CSharpCodeProvider(dic);
+      Dictionary<string, string> dic = new Dictionary<string, string>() { { "CompilerVersion", "v4.8" } };
+      CSharpCodeProvider provider = new CSharpCodeProvider();
             int eventcount = 0;
             this.path = path;
             try
@@ -117,9 +117,9 @@ namespace SagaMap.Manager
             parms.GenerateExecutable = false;
             parms.GenerateInMemory = true;
             parms.IncludeDebugInformation = true;
-            parms.ReferencedAssemblies.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll");
-            parms.ReferencedAssemblies.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll");
-            parms.ReferencedAssemblies.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll");
+            parms.ReferencedAssemblies.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll");
+            parms.ReferencedAssemblies.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll");
+            parms.ReferencedAssemblies.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll");
             parms.ReferencedAssemblies.Add("System.dll");
             parms.ReferencedAssemblies.Add("SagaLib.dll");
             parms.ReferencedAssemblies.Add("SagaDB.dll");
