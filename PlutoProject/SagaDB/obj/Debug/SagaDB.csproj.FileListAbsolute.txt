@@ -19,3 +19,4 @@ C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\obj\Debug\SagaDB.csproj.Core
 C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\obj\Debug\SagaDB.csproj.CopyComplete
 C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\obj\Debug\SagaDB.dll
 C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\obj\Debug\SagaDB.pdb
+C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\SagaDB.dll.config

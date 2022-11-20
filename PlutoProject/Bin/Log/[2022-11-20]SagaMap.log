@@ -33,3 +33,116 @@
    at SagaMap.MapServer.Main(String[] args) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\MapServer.cs:line 305
 20/11/2565 12:13:47|[Error]Trying to save all player's data
 20/11/2565 12:14:10|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:51:07|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 12:51:07|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:51:12|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 12:51:12|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 12:51:13|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 12:51:17|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:51:27|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:51:30|[Error]Fatal: An unhandled exception is thrown, terminating...
+20/11/2565 12:51:30|[Error]Error Message:System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\DB\PartnerAI'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:line 41
+   at SagaMap.MapServer.Main(String[] args) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\MapServer.cs:line 305
+20/11/2565 12:51:30|[Error]Call Stack:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:line 41
+   at SagaMap.MapServer.Main(String[] args) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\MapServer.cs:line 305
+20/11/2565 12:51:30|[Error]Trying to save all player's data
+20/11/2565 12:51:39|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:53:53|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:54:03|[Error]Failed.. Trying again in 10sec
+20/11/2565 12:56:16|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 12:56:20|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 12:56:20|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 12:56:20|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 12:56:41|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 12:56:55|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 12:56:55|[Error]File::0
+20/11/2565 12:56:55|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 12:56:55|[Error]File::0
+20/11/2565 12:56:55|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 12:56:55|[Error]File::0
+20/11/2565 12:58:17|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 12:58:21|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 12:58:21|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 12:58:21|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 12:58:39|Warning:ClientGameVersion is undefined, accepting all version.
+20/11/2565 12:58:44|[Error]Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaDB\Item\FurnitureFactory.cs:line 60
+   at SagaLib.Factory`2.InitCSV(String path, Encoding encoding) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaLib\Factory.cs:line 246
+20/11/2565 12:58:44|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+20/11/2565 12:58:44|[Error]Compiler executable file csc.exe cannot be found.
+   at System.CodeDom.Compiler.RedistVersionInfo.GetCompilerPath(IDictionary`2 provOptions, String compilerExecutable)
+   at Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   at Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromFileBatch(CompilerParameters options, String[] fileNames)
+   at System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromFile(CompilerParameters options, String[] fileNames)
+   at SagaMap.Manager.PacketManager.CompilePacket(String[] Source, CodeDomProvider Provider) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 80
+   at SagaMap.Manager.PacketManager.LoadPacketFiles(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Manager\PacketManager.cs:line 49
+20/11/2565 12:59:04|[Error]Could not find a part of the path 'C:\Users\nizak\Projects\SagaECO\PlutoProject\Bin\Skills'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at SagaMap.Skill.SkillHandler.LoadSkill(String path) in C:\Users\nizak\Projects\SagaECO\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:line 34
+20/11/2565 12:59:05|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll' could not be found
+20/11/2565 12:59:05|[Error]File::0
+20/11/2565 12:59:05|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll' could not be found
+20/11/2565 12:59:05|[Error]File::0
+20/11/2565 12:59:05|[Error]Compile Error:Metadata file 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll' could not be found
+20/11/2565 12:59:05|[Error]File::0
